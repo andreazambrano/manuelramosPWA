@@ -48,6 +48,7 @@ import { HttpClientModule } from '@angular/common/http';
 //import { LightboxModule } from 'ngx-lightbox';
 import { Component, Inject} from '@angular/core';
 import { TopheaderComponent } from './components/topheader/topheader.component';
+import { TopTixsComponent } from './components/top-tixs/top-tixs.component';
 import { SliderHomeComponent } from './components/slider-home/slider-home.component';
 import { PreFooterComponent } from './components/pre-footer/pre-footer.component';
 import { TestcomponentComponent } from './components/testcomponent/testcomponent.component';
@@ -64,6 +65,7 @@ import { SinglecourseComponent } from './components/singlecourse/singlecourse.co
 @NgModule({
   declarations: [
     AppComponent,
+    TopTixsComponent,
     CatalogComponent,
     HeaderComponent,
     FooterComponent,
