@@ -53,6 +53,10 @@ import { PreFooterComponent } from './components/pre-footer/pre-footer.component
 import { TestcomponentComponent } from './components/testcomponent/testcomponent.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { QuestionComponent } from './components/question/question.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { ThankComponent } from './components/thank/thank.component';
+import { CourseComponent } from './components/course/course.component';
+import { SinglecourseComponent } from './components/singlecourse/singlecourse.component';
 
 
 
@@ -70,6 +74,10 @@ import { QuestionComponent } from './components/question/question.component';
     TestcomponentComponent,
     BlogComponent,
     QuestionComponent,
+    ContactComponent,
+    ThankComponent,
+    CourseComponent,
+    SinglecourseComponent,
   ],
   imports: [
     BrowserModule,

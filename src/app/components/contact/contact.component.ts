@@ -4,11 +4,11 @@ import { Location } from '@angular/common';
 import { Router } from '@angular/router'; 
 
 @Component({
-  selector: 'app-question',
-  templateUrl: './question.component.html',
-  styleUrls: ['./question.component.css']
+  selector: 'app-contact',
+  templateUrl: './contact.component.html',
+  styleUrls: ['./contact.component.css']
 })
-export class QuestionComponent implements OnInit {
+export class ContactComponent implements OnInit {
 
   constructor(
 private location: Location,
